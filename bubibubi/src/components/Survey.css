@@ -1,0 +1,71 @@
+.survey {
+    width: 1353px;
+    height: 280px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    position: relative;
+}
+
+.survey h2 {
+    font-family: 'Bagel Fat One', sans-serif; 
+    font-size: 26pt;
+    margin-left: 35px; 
+}
+
+.survey .subtext {
+    font-family: 'Pretendard', sans-serif; 
+    font-size: 14pt; 
+    color: #777777;
+    margin-left: 40px; 
+}
+
+.survey .subtexts {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 600; 
+    font-size: 26pt; 
+    margin-left: 40px; 
+}
+
+.survey .right-text {
+    font-family: 'Bagel Fat One', sans-serif; 
+    font-size: 80pt; 
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    margin-right: 40px;
+}
+
+.items-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item {
+    text-align: center;
+    margin: 0 10px;
+    text-decoration: none; /* 링크 스타일 제거 */
+    color: inherit; /* 부모의 색상을 상속 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 80px;
+    height: 80px;
+}
+
+.item p {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 14pt;
+    color: #000;
+}
